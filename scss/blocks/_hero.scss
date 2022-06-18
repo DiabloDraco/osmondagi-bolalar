@@ -1,0 +1,76 @@
+.hero {
+    background-color: #222831;
+    margin-bottom: 90px;
+    &__container {
+    }
+
+    &__inner-wrapper {
+        display: flex;
+        background-image: url(./../../images/carusel.png);
+        background-repeat: no-repeat;
+        background-position: calc(50%) calc(85%);
+    }
+
+    &__left {
+        padding-top: 97px;
+        padding-bottom: 77px;
+    }
+
+    &__heading {
+        font-family: 'Pathway Gothic One';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 35px;
+    }
+
+    &__yellow {
+        color: #FFD369;
+    }
+
+    &__button {
+        margin-bottom: 93px;
+        border: none;
+        outline: none;
+        background: none;
+    }
+
+    &__button-img {
+    }
+
+    &__name {
+        font-family: 'Pathway Gothic One';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFD369;        
+        margin-bottom: 5px;
+    }
+
+    &__desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        opacity: 0.67;
+    }
+
+    &__right {
+    }
+
+    &__right-brat {
+        margin-top: 65px;
+    }
+}
+.container {
+}

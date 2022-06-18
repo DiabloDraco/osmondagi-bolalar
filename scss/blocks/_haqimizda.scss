@@ -1,0 +1,58 @@
+.haqimizda {
+
+    &__container {
+    }
+
+    &__left {
+        width: 620px;
+        height: 350px;
+        object-fit: cover;
+        margin-right: 53px;
+    }
+
+    &__left-wrapper {
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+    }
+
+    &__btn-text {
+        font-family: 'Pathway Gothic One';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #000000;   
+        padding: 14px 71px 14px 20px;     
+        background-color: #FFD369;
+    }
+
+    &__btn-icon {
+        background-color: #000000;
+        padding: 16px 16px 16.4px 16px;
+    }
+
+    &__right {
+    }
+
+    &__right-wrapper {
+    }
+
+    &__right-heading {
+    }
+
+    &__right-desc {
+    }
+
+    &__right-text {
+    }
+
+    &__right-btn {
+    }
+}
+.container {
+}
