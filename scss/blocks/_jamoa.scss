@@ -1,0 +1,103 @@
+.jamoa {
+    background-color: #F9F9F9;
+    margin-bottom: 150px;
+    &__conainer {
+    }
+
+    &__top {
+        margin-bottom: 77px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 100%;
+        color: #000000;
+        margin-bottom: 4px;
+    }
+
+    &__heading {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 100%;
+        color: #000000;
+    }
+
+    &__bottom {
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &__item {
+        margin-top: 82px;
+        width: 309px;
+        height: 305px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 50px rgba(34, 40, 49, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__item-pic {
+        transform: translateY(-50%);
+        border-radius: 50%;
+        border: 7px solid #F9F9F9;
+    }
+
+    &__item-wrapper {
+        margin-top: -30px;
+    }
+
+    &__item-name {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;        
+        margin-bottom: 4px;
+        text-align: center;
+    }
+
+    &__item-desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #787878;
+        margin-bottom: 44px;
+    }
+
+    &__media-wrapper {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__media-pic {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 50%;
+        border: 1px solid black;
+        opacity: 0.6;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+.container {
+}

@@ -1,0 +1,69 @@
+.kuzat {
+    margin-bottom: 100px;
+    &__container {
+    }
+
+    &__top {
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__top-desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 110%;
+        color: #000000;   
+        margin-bottom: 5px;     
+    }
+
+    &__top-heading {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 110%;
+        color: #000000;        
+    }
+
+    &__bottom {
+        background-color: #FFFFFF;
+    }
+
+    &__list {
+        display: flex;
+        gap: 190px;
+        padding: 50px 111px 50px 108px;
+    }
+
+    &__item {
+        display: flex;
+    }
+
+    &__text-wrapper {
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item-heading {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #242424;
+    }
+
+    &__item-email {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #242424;
+        opacity: 0.7;
+    }
+}

@@ -1,0 +1,185 @@
+.kordingiz {
+    margin-bottom: 140px;
+    &__container {
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-bottom: 46px;
+    }
+
+    &__top-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__top-desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 110%;
+        color: #000000;  
+        margin-bottom: 5px;      
+    }
+
+    &__top-heading {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 110%;
+        color: #000000;        
+    }
+
+    &__top-btn {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #222831;   
+        padding: 17px 58px 16px 59px;
+        border: 2px solid black;     
+    }
+
+    &__bottom {
+        display: flex;
+    }
+
+    &__bottom-left {
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+    }
+
+    &__bottom-img {
+        background-image: url(./../../images/kordiz-main.png);
+        background-repeat: no-repeat;
+        width: 648px;
+        height: 400px;
+        margin-bottom: 32px;
+    }
+
+    &__text-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 315px 0 35px 45px;
+    }
+
+    &__left-desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+
+    &__left-head {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 34px;
+        color: #FFFFFF;
+    }
+
+    &__left-wrapper {
+        max-width: 626px;
+    }
+
+    &__left-wrapper-desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #222831;
+        margin-bottom: 13px;
+    }
+
+    &__left-wrapper-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;  
+        color: #000000;
+        opacity: 0.6;
+        margin-bottom: 47px;
+    }
+
+    &__left-bottom {
+        display: flex;
+    }
+
+    &__left-bottom-left {
+        display: flex;
+        flex-direction: column;
+        margin-right: 60px;
+    }
+
+    &__left-bottom-left-desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        opacity: 0.6;
+        margin-bottom: 4px;
+    }
+
+    &__left-bottom-right {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    &__right {
+    }
+
+    &__right-list {
+        
+        max-width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &__right-item {
+        width: 309px;          
+        cursor: pointer;  
+
+    }
+}
+.container {
+}
+.kordiz {
+
+    &__right-item-pic {
+        width: 309px;
+        height: 300px;
+        margin-bottom: 22px;
+        z-index: 1;
+            &:hover {
+            background-image: url(./../../images/play.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 309px;
+            height: 300px;
+            z-index: 10000;
+        }
+    }
+
+    &__right-desc {
+    }
+}

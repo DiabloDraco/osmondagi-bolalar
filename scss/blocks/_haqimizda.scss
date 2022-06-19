@@ -1,24 +1,33 @@
 .haqimizda {
-
+    background-color: #F9F9F9;
+    padding-top: 90px;
     &__container {
+        display: flex;
+        padding-bottom: 100px;
+        padding-top: 90;
     }
-
+    
     &__left {
         width: 620px;
         height: 350px;
         object-fit: cover;
         margin-right: 53px;
+        background-image: url(./../../images/biz_haq.png);
     }
-
+    
     &__left-wrapper {
+        display: flex;
     }
-
+    
     &__btn {
         display: flex;
         align-items: center;
+        padding: 232px 0 0 40px;
     }
-
+    
     &__btn-text {
+        width: 220px;
+        text-align: center;
         font-family: 'Pathway Gothic One';
         font-style: normal;
         font-weight: 800;
@@ -27,31 +36,105 @@
         letter-spacing: 0.02em;
         text-transform: uppercase;
         color: #000000;   
-        padding: 14px 71px 14px 20px;     
+        padding: 16px 0px 16px 0px;  
         background-color: #FFD369;
     }
-
-    &__btn-icon {
+    .icon__wrapper {
         background-color: #000000;
         padding: 16px 16px 16.4px 16px;
+        cursor: pointer;
     }
-
+    &__btn-icon {
+        color:white;
+        &:hover {
+            color:#FFD369;
+        }
+    }
+    
+    &__stat {
+        display: flex;
+        flex-direction: column;
+        padding-top: 68px;
+        padding-left: 90px;
+    }
+    
+    &__num-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 45px;
+    }
+    
+    &__num {
+        font-family: 'Pathway Gothic One';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 74px;
+        line-height: 63px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 5px;
+    }
+    
+    &__num-desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+    
     &__right {
     }
-
+    
     &__right-wrapper {
     }
-
+    
     &__right-heading {
+        font-family: 'Pathway Gothic One';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 63px;
+        text-transform: uppercase;
+        color: #222831;        
+        text-shadow: 30px -22px rgba(0, 0, 0, 0.055);
+        margin-bottom: 10px;
+        margin-top: 12px;
     }
-
+    
     &__right-desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color: #222831;
+        margin-bottom: 10px;
     }
-
+    
     &__right-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        opacity: 0.5;
+        margin-bottom: 67px;
     }
-
+    
     &__right-btn {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #222831;        
+        padding: 16px 82px;
+        border: 2px solid #222831;
     }
 }
 .container {
