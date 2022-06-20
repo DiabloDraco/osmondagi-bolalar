@@ -50,6 +50,7 @@
     &__tel-wrapper {
         display: flex;
         align-items: center;
+        margin-bottom: 32px;
     }
     
     &__tel {
@@ -60,7 +61,6 @@
         line-height: 24px;
         color: #222831;
         margin-left: 9px;
-        margin-bottom: 32px;
     }
     
     &__media-desc {

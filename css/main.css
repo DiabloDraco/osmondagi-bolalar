@@ -1002,6 +1002,11 @@ a {
   border: 2px solid black;
 }
 
+.kordingiz__top-btn:hover {
+  color: #fff;
+  background-color: #222831;
+}
+
 .kordingiz__bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1036,6 +1041,31 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 315px 0 35px 45px;
+  cursor: pointer;
+  position: relative;
+}
+
+.kordingiz__text-wrapper-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 10000;
+}
+
+.kordingiz__text-wrapper:hover::before {
+  content: "";
+  display: inline-block;
+  width: 648px;
+  height: 400px;
+  background-image: url(./../../images/knopka-main.svg);
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 10;
 }
 
 .kordingiz__left-desc {
@@ -1132,22 +1162,34 @@ a {
 .kordingiz__right-item {
   width: 309px;
   cursor: pointer;
+  position: relative;
+}
+
+.kordingiz__right-item:hover::before {
+  content: "";
+  display: inline-block;
+  width: 309px;
+  height: 300px;
+  background-image: url(./../../images/knopka-main2.svg);
+  top: 0;
+  left: 0;
+  position: absolute;
 }
 
 .kordiz__right-item-pic {
   width: 309px;
   height: 300px;
   margin-bottom: 22px;
-  z-index: 1;
+  cursor: pointer;
 }
 
-.kordiz__right-item-pic:hover {
-  background-image: url(./../../images/play.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 309px;
-  height: 300px;
-  z-index: 10000;
+.kordiz__right-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #222831;
 }
 
 .marhamat {
@@ -1416,6 +1458,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 32px;
 }
 
 .hamkorlik__tel {
@@ -1426,7 +1469,6 @@ a {
   line-height: 24px;
   color: #222831;
   margin-left: 9px;
-  margin-bottom: 32px;
 }
 
 .hamkorlik__media-desc {
