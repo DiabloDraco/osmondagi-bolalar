@@ -1834,6 +1834,269 @@ a {
   color: #222831;
 }
 
+.kordiz__bottom-btn {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  /* MOBILE */
+  .kordingiz {
+    margin-bottom: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .kordingiz__container {
+    max-width: 375px;
+    padding: 0;
+  }
+  .kordingiz__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-bottom: 45px;
+  }
+  .kordingiz__top-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .kordingiz__top-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .kordingiz__top-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+  }
+  .kordingiz__top-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222831;
+    padding: 17px 58px 16px 59px;
+    border: 2px solid black;
+    display: none;
+  }
+  .kordingiz__top-btn:hover {
+    color: #fff;
+    background-color: #222831;
+  }
+  .kordingiz__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .kordingiz__bottom-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 0px;
+  }
+  .kordingiz__bottom-img {
+    background-image: url(./../../images/kordiz-main.png);
+    background-repeat: no-repeat;
+    width: 345px;
+    height: 213px;
+    margin-bottom: 15px;
+  }
+  .kordingiz__text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 153px 0 25px 30px;
+    cursor: pointer;
+    position: relative;
+  }
+  .kordingiz__text-wrapper-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    z-index: 10000;
+  }
+  .kordingiz__text-wrapper:hover::before {
+    content: "";
+    display: inline-block;
+    width: 345px;
+    height: 213px;
+    background-image: url(./../../images/knopka-main-m.svg);
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+  }
+  .kordingiz__left-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  .kordingiz__left-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .kordingiz__left-wrapper {
+    max-width: 345px;
+  }
+  .kordingiz__left-wrapper-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222831;
+    margin-bottom: 10px;
+  }
+  .kordingiz__left-wrapper-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 50px;
+  }
+  .kordingiz__left-bottom {
+    display: none;
+  }
+  .kordingiz__left-bottom-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 0px;
+  }
+  .kordingiz__left-bottom-left-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 4px;
+  }
+  .kordingiz__left-bottom-right {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .kordingiz__right-list {
+    max-width: 375px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 60px;
+  }
+  .kordingiz__right-item {
+    width: 165px;
+    cursor: pointer;
+    position: relative;
+  }
+  .kordingiz__right-item:hover::before {
+    content: "";
+    display: inline-block;
+    width: 165px;
+    height: 160px;
+    background-image: url(./../../images/knopka-main-mini.svg);
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .kordiz__right-item-pic {
+    width: 165px;
+    height: 160px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  .kordiz__right-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222831;
+  }
+  .kordiz__bottom-btn {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222831;
+    padding: 17px 58px 16px 59px;
+    border: 2px solid #222831;
+    margin-left: 63px;
+  }
+}
+
 .marhamat {
   max-width: 1436px;
   margin-right: auto;
