@@ -500,6 +500,63 @@ a {
   background: none;
 }
 
+@media only screen and (max-width: 800px) {
+  /* MOBILE */
+  .header {
+    border-bottom: 1px solid #000;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #222831;
+  }
+  .header__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 100%;
+  }
+  .header__navbar {
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+  }
+  .header__item-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+  .header__item-link:hover {
+    color: #FFD369;
+  }
+  .header__item-link:active {
+    opacity: 0.5;
+  }
+  .header__button {
+    display: inline-block;
+    outline: none;
+    border: none;
+    background: none;
+  }
+  .navbar__btn {
+    display: none;
+    outline: none;
+    border: none;
+    background: none;
+  }
+}
+
 .hero {
   background-color: #222831;
 }
@@ -566,6 +623,10 @@ a {
 
 .hero__right-brat {
   margin-top: 65px;
+}
+
+@media only screen and (max-width: px) {
+  /*  */
 }
 
 .haqimizda {
