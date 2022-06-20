@@ -858,6 +858,11 @@ a {
   opacity: 0.6;
 }
 
+.haqimizda__right {
+  max-width: 657px;
+  width: 100%;
+}
+
 .haqimizda__right-heading {
   font-family: 'Pathway Gothic One';
   font-style: normal;
@@ -923,6 +928,211 @@ a {
 .haqimizda__right-btn:hover {
   color: #fff;
   background-color: #222831;
+}
+
+@media only screen and (max-width: 800px) {
+  /* MOBILE */
+  .haqimizda {
+    background-color: #F9F9F9;
+    padding-top: 138px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .haqimizda__container {
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  .haqimizda__left {
+    width: 375px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-right: 53px;
+    background-image: url(./../../images/biz_haq2.png);
+    margin-bottom: 22px;
+  }
+  .haqimizda__left-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .haqimizda__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 36px;
+    padding: 245px 0 0 40px;
+  }
+  .haqimizda__btn-text {
+    width: 120px;
+    text-align: center;
+    font-family: 'Pathway Gothic One';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 9px 10px 10px 10px;
+    background-color: #FFD369;
+  }
+  .haqimizda .icon__wrapper {
+    width: 40px;
+    height: 36px;
+    background-color: #000000;
+    padding: 11px 11px 12px 11px;
+    cursor: pointer;
+  }
+  .haqimizda__btn-icon {
+    width: 18px;
+    height: 13px;
+    color: white;
+  }
+  .haqimizda__btn-icon:hover {
+    color: #FFD369;
+  }
+  .haqimizda__stat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 58px;
+    padding-left: 25px;
+  }
+  .haqimizda__num-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 45px;
+  }
+  .haqimizda__num {
+    font-family: 'Pathway Gothic One';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+  }
+  .haqimizda__num-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.6;
+  }
+  .haqimizda__right {
+    max-width: 375px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .haqimizda__right-wrapper {
+    position: absolute;
+    top: -78px;
+  }
+  .haqimizda__right-heading {
+    font-family: 'Pathway Gothic One';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #222831;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    position: relative;
+    left: 0;
+    margin-left: -20px;
+  }
+  .haqimizda__right-heading::before {
+    content: "BIZ HAQIMIZDA";
+    position: absolute;
+    top: -15px;
+    left: -20px;
+    font-family: 'Pathway Gothic One';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #222831;
+    opacity: 0.1;
+    width: 300px;
+  }
+  .haqimizda__right-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222831;
+    margin-bottom: 15px;
+    max-width: 345px;
+    width: 100%;
+  }
+  .haqimizda__right-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 30px;
+    max-width: 345px;
+    width: 100%;
+  }
+  .haqimizda__right-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222831;
+    padding: 16px 82px;
+    border: 2px solid #222831;
+    margin-left: 60px;
+  }
+  .haqimizda__right-btn:hover {
+    color: #fff;
+    background-color: #222831;
+  }
 }
 
 .jamoa {
