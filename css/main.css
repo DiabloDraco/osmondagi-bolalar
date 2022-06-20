@@ -503,6 +503,19 @@ a {
 @media only screen and (max-width: 800px) {
   /* MOBILE */
   .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-bottom: 1px solid #000;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -625,8 +638,113 @@ a {
   margin-top: 65px;
 }
 
-@media only screen and (max-width: px) {
-  /*  */
+@media only screen and (max-width: 800px) {
+  /* MOBILE */
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #222831;
+  }
+  .hero__inner-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: url(./../../images/carusel2.png);
+    background-repeat: no-repeat;
+    background-position: calc(5%) calc(15%);
+  }
+  .hero__left {
+    padding-top: 13px;
+    padding-bottom: 35px;
+  }
+  .hero__heading {
+    font-family: 'Pathway Gothic One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 345px;
+    margin-bottom: 0px;
+  }
+  .hero__yellow {
+    color: #FFD369;
+  }
+  .hero__person-wrapper {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-right: 59px;
+  }
+  .hero__button {
+    margin-bottom: 93px;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  .hero__button-img {
+    margin-top: 90px;
+  }
+  .hero__desc-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 41px;
+    margin-top: 59px;
+  }
+  .hero__name {
+    font-family: 'Pathway Gothic One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFD369;
+    margin-bottom: 5px;
+  }
+  .hero__desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    opacity: 0.67;
+  }
+  .hero__right {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    padding-left: 19px;
+  }
+  .hero__right-brat {
+    margin-top: 33px;
+    width: 278px;
+    height: 279px;
+    margin-left: 19px;
+  }
 }
 
 .haqimizda {

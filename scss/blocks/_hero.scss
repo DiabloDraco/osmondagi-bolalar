@@ -75,8 +75,104 @@
 }
 
 
-@media only screen and (max-width: px) { 
-    /*  */
+@media only screen and (max-width: 800px) { 
+    /* MOBILE */
 
-
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #222831;
+        &__container {
+        }
+    
+        &__inner-wrapper {
+            display: flex;
+            flex-direction: column;
+            background-image: url(./../../images/carusel2.png);
+            background-repeat: no-repeat;
+            background-position: calc(5%) calc(15%);
+        }
+    
+        &__left {
+            padding-top: 13px;
+            padding-bottom: 35px;
+        }
+    
+        &__heading {
+            font-family: 'Pathway Gothic One';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 30px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            max-width: 345px;
+            margin-bottom: 0px;
+        }
+    
+        &__yellow {
+            color: #FFD369;
+        }
+        &__person-wrapper {
+            order: -1;
+            margin-right: 59px;
+        }
+        &__button {
+            margin-bottom: 93px;
+            border: none;
+            outline: none;
+            background: none;
+        }
+    
+        &__button-img {
+            margin-top: 90px;
+        }
+        
+        &__desc-wrapper {
+            display: flex;
+            align-items: center;
+            height: 41px;
+            margin-top: 59px;
+        }
+        &__name {
+            font-family: 'Pathway Gothic One';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #FFD369;        
+            margin-bottom: 5px;
+        }
+    
+        &__desc {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+            opacity: 0.67;
+        }
+    
+        &__right {
+            order: -1;
+            padding-left: 19px;
+        }
+    
+        &__right-brat {
+            margin-top: 33px;
+            width: 278px;
+            height: 279px;
+            margin-left: 19px;
+        }
+    }
+    .container {
+    }
+    
 }
