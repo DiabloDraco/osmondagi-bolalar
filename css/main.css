@@ -1128,4 +1128,208 @@ a {
   height: 300px;
   z-index: 10000;
 }
+
+.marhamat {
+  max-width: 1436px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(./../../images/marhamat-bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(100%) 0;
+  padding-top: 155px;
+  margin-bottom: 100px;
+}
+
+.marhamat__top-header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 110%;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.marhamat__top-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  margin-bottom: 62px;
+}
+
+.marhamat__bottom-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.marhamat__bottom-item {
+  width: 422px;
+  height: 501px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.marhamat__bottom-item:nth-child(1) {
+  background-image: url(./../../images/marhamat1.png);
+}
+
+.marhamat__bottom-item:nth-child(2) {
+  background-image: url(./../../images/marhamat2.png);
+}
+
+.marhamat__bottom-item:nth-child(3) {
+  background-image: url(./../../images/marhamat3.png);
+}
+
+.marhamat__bottom-wrapper {
+  padding: 314px 152px 35px 40px;
+}
+
+.marhamat__b-list-h {
+  font-family: 'Pathway Gothic One';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.marhamat__b-list-btn {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #222831;
+  padding: 20px 45px 19px 46px;
+  background-color: #FFD369;
+}
+
+.marhamat__b-list-btn:hover {
+  opacity: 0.8;
+}
+
+.marhamat__b-list-btn:active {
+  opacity: 0.6;
+}
+
+.marhamat__bottom-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 110%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.marhamat__desc-wrapper {
+  background-color: #FFFFFF;
+  padding: 45px 108.71px 45.5px 50px;
+}
+
+.marhamat__desc-wrapper-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.marhamat__desc-wrapper-item {
+  max-width: 412px;
+  width: 100%;
+  padding-right: 88px;
+  margin-right: 30px;
+  border-right: 1px solid #DCDCDC;
+}
+
+.marhamat__desc-wrapper-item:last-child {
+  border: none;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.marhamat__desc-wrapper-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.marhamat__desc-place-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+  width: 412px;
+}
+
+.marhamat__desc-place {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.marhamat__desc-tel-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.marhamat__desc-tel-wrapper-bottom-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
+}
+
+.marhamat__desc-tel {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.marhamat__desc-map {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #2F48BE;
+}
 /*# sourceMappingURL=main.css.map */
