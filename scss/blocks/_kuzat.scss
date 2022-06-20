@@ -67,3 +67,81 @@
         opacity: 0.7;
     }
 }
+
+@media only screen and (max-width: 800px) { 
+    /* MOBILE */
+
+    .kuzat {
+        margin-bottom: 50px;
+        &__container {
+            max-width: 375px;
+            padding: 0;
+        }
+    
+        &__top {
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 15px;
+        }
+    
+        &__top-desc {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 100%;
+            color: #000000;   
+            margin-bottom: 5px;     
+        }
+    
+        &__top-heading {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 100%;
+            color: #000000;        
+        }
+    
+        &__bottom {
+            background-color: #FFFFFF;
+        }
+    
+        &__list {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            padding: 39px 83px 39px 15px;
+        }
+    
+        &__item {
+            display: flex;
+        }
+    
+        &__text-wrapper {
+            margin-left: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        &__item-heading {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #242424;
+        }
+    
+        &__item-email {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #242424;
+            opacity: 0.7;
+        }
+    }
+}
