@@ -479,7 +479,7 @@ a {
 }
 
 .header__item-link:hover {
-  opacity: 0.8;
+  color: #FFD369;
 }
 
 .header__item-link:active {
@@ -687,9 +687,25 @@ a {
   line-height: 63px;
   text-transform: uppercase;
   color: #222831;
-  text-shadow: 30px -22px rgba(0, 0, 0, 0.055);
   margin-bottom: 10px;
   margin-top: 12px;
+  position: relative;
+}
+
+.haqimizda__right-heading::before {
+  content: "BIZ HAQIMIZDA";
+  position: absolute;
+  top: -5px;
+  left: -2px;
+  font-family: 'Pathway Gothic One';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 63px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #222831;
+  opacity: 0.1;
 }
 
 .haqimizda__right-desc {
@@ -714,7 +730,7 @@ a {
 }
 
 .haqimizda__right-btn {
-  font-family: 'Gilroy';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -723,6 +739,11 @@ a {
   color: #222831;
   padding: 16px 82px;
   border: 2px solid #222831;
+}
+
+.haqimizda__right-btn:hover {
+  color: #fff;
+  background-color: #222831;
 }
 
 .jamoa {
@@ -1331,5 +1352,150 @@ a {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2F48BE;
+}
+
+.hamkorlik {
+  padding-top: 90px;
+  margin-bottom: 180px;
+}
+
+.hamkorlik__container {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hamkorlik__inner-wrapper {
+  margin-right: 86px;
+  margin-top: 88px;
+  margin-left: 120px;
+  margin-bottom: 125px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.hamkorlik__container-bg {
+  height: 587px;
+  margin-top: -90px;
+  margin-right: 39px;
+}
+
+.hamkorlik__heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 60px;
+  color: #222831;
+  max-width: 442px;
+  margin-bottom: 40px;
+}
+
+.hamkorlik .black {
+  font-weight: 700;
+}
+
+.hamkorlik__tel-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 11px;
+}
+
+.hamkorlik__tel-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hamkorlik__tel {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222831;
+  margin-left: 9px;
+  margin-bottom: 32px;
+}
+
+.hamkorlik__media-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 17px;
+}
+
+.hamkorlik__media-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+
+.hamkorlik__media-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7px 17px 7px 13px;
+  border: 1px solid #222831;
+  min-width: 170px;
+}
+
+.hamkorlik__media-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #222831;
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #222831;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer__copy {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110%;
+  color: #FFFFFF;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=main.css.map */

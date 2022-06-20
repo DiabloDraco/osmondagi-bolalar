@@ -1,0 +1,101 @@
+.hamkorlik {
+    padding-top: 90px;
+    margin-bottom: 180px;
+    &__container {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__inner-wrapper {
+        margin-right: 86px;
+        margin-top: 88px;
+        margin-left: 120px;
+        margin-bottom: 125px;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    &__container-bg {
+        height: 587px;
+        margin-top: -90px;
+        margin-right: 39px;
+    }
+
+    &__heading {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 60px;
+        color: #222831;
+        max-width: 442px;
+        margin-bottom: 40px;
+    }
+
+    .black {
+        font-weight: 700;
+    }
+
+    &__tel-head {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        margin-bottom: 11px;
+    }
+    
+    &__tel-wrapper {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__tel {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #222831;
+        margin-left: 9px;
+        margin-bottom: 32px;
+    }
+    
+    &__media-desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        margin-bottom: 17px;
+    }
+    
+    &__media-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    &__media-item {
+        display: flex;
+        align-items: center;
+        padding: 7px 17px 7px 13px;
+        border: 1px solid #222831;
+        min-width: 170px;
+    }
+    
+    &__media-head {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #222831;
+        margin-left: 10px;
+    }
+}
+.container {
+}

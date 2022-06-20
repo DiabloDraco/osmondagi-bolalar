@@ -1,0 +1,26 @@
+.footer {
+    background-color: #222831;
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    &__logo-link {
+
+    }
+
+    &__copy {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 110%;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+}
+.container {
+}
