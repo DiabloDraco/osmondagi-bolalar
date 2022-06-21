@@ -2319,6 +2319,19 @@ a {
     width: 100%;
     padding: 0;
   }
+  .marhamat__inner-wrapper {
+    max-width: 375px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .marhamat__top-header {
     font-family: 'Roboto';
     font-style: normal;
@@ -2668,6 +2681,136 @@ a {
   margin-left: 10px;
 }
 
+@media only screen and (max-width: 800px) {
+  /* MOBILE */
+  .hamkorlik {
+    padding-top: 0px;
+    padding-bottom: 115px;
+    margin-bottom: 0;
+  }
+  .hamkorlik__container {
+    max-width: 375px;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+  }
+  .hamkorlik__inner-wrapper {
+    margin-right: 16px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    max-width: 344px;
+    width: 100%;
+  }
+  .hamkorlik__container-bg {
+    display: none;
+    height: 587px;
+    margin-top: -90px;
+    margin-right: 39px;
+  }
+  .hamkorlik__heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #222831;
+    max-width: 442px;
+    margin-bottom: 30px;
+  }
+  .hamkorlik .black {
+    font-weight: 700;
+  }
+  .hamkorlik__tel-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 17px;
+  }
+  .hamkorlik__tel-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 43px;
+  }
+  .hamkorlik__tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #222831;
+    margin-left: 9px;
+  }
+  .hamkorlik__media-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+  .hamkorlik__media-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 52px;
+  }
+  .hamkorlik__media-wrapper::after {
+    content: "";
+    display: inline-block;
+    background-image: url(./../../images/goup.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: -60px;
+    bottom: -30px;
+  }
+  .hamkorlik__media-item {
+    display: inline-block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 12px 19px 11px 19px;
+    border: 1px solid #222831;
+    min-width: 80px;
+  }
+  .hamkorlik__media-item-pic {
+    width: 42px;
+    height: 42px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .hamkorlik__media-head {
+    display: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #222831;
+    margin-left: 10px;
+  }
+}
+
 .footer {
   background-color: #222831;
 }
@@ -2694,5 +2837,34 @@ a {
   line-height: 110%;
   color: #FFFFFF;
   opacity: 0.8;
+}
+
+@media only screen and (max-width: 800px) {
+  /* MOBILE */
+  .footer {
+    background-color: #222831;
+  }
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .footer__copy {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -209,9 +209,14 @@
         }
         
         &__inner-wrapper {
+            max-width: 375px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         
         &__top {
+        
         }
         
         &__top-header {

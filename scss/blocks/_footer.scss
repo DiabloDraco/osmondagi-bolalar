@@ -22,5 +22,33 @@
         opacity: 0.8;
     }
 }
-.container {
+
+@media only screen and (max-width: 800px) { 
+    /* MOBILE */
+
+    .footer {
+        background-color: #222831;
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+    
+        &__logo-link {
+    
+        }
+    
+        &__copy {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 14px;
+            color: #FFFFFF;
+            opacity: 0.8;
+        }
+    }
+    
 }
