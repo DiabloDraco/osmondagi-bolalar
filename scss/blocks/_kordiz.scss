@@ -233,15 +233,11 @@
         }
         
         &__top {
-            display: flex;
-            justify-content: space-between;
-            align-content: center;
             margin-bottom: 45px;
         }
         
         &__top-left {
-            display: flex;
-            flex-direction: column;
+            margin-left: 12px;
         }
         
         &__top-desc {
@@ -288,6 +284,8 @@
         &__bottom-left {
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
             margin-right: 0px;
         }
         
@@ -398,6 +396,7 @@
         }
         
         &__right {
+
         }
         
         &__right-list {
@@ -405,6 +404,7 @@
             width: 100%;
             display: flex;
             flex-wrap:  wrap;
+            justify-content: center;
             gap: 15px;
             margin-bottom: 60px;
         }
@@ -428,7 +428,6 @@
     .container {
     }
     .kordiz {
-        
         &__right-item-pic {
             width: 165px;
             height: 160px;
