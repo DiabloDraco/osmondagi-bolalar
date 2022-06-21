@@ -189,5 +189,199 @@
         color: #2F48BE;
     }
 }
-.container {
+
+@media only screen and (max-width: 800px) { 
+    /* MOBILE */
+
+    .marhamat {
+        max-width: 1436px;
+        margin-right: auto;
+        margin-left: auto;    
+        background-image: url(./../../images/marhamat-bg.png);
+        background-repeat: no-repeat;
+        background-position: calc(100%) 0;
+        padding-top: 155px;
+        margin-bottom: 100px;
+        &__container {    
+    
+        }
+        
+        &__inner-wrapper {
+        }
+        
+        &__top {
+        }
+        
+        &__top-header {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 110%;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        
+        &__top-desc {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #000000;   
+            margin-bottom: 62px;     
+        }
+        
+        &__bottom {
+        }
+        
+        &__bottom-list {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        
+        &__bottom-item {
+            width: 422px;
+            height: 501px;            
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            &:nth-child(1) {
+                background-image: url(./../../images/marhamat1.png);
+                
+            }
+            &:nth-child(2) {
+                background-image: url(./../../images/marhamat2.png);
+            }
+            &:nth-child(3) {
+                background-image: url(./../../images/marhamat3.png);
+            }
+        }
+        
+        &__bottom-wrapper {
+            padding: 314px 152px 35px 40px;
+        }
+        
+        &__b-list-h {
+            font-family: 'Pathway Gothic One';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 34px;
+            line-height: 41px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 32px;
+        }
+        
+        &__b-list-btn {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #222831;
+            padding: 20px 45px 19px 46px;
+            background-color: #FFD369;
+            &:hover {
+                opacity: 0.8;
+            }
+            &:active {
+                opacity: 0.6;
+            }
+        }
+        
+        &__bottom-desc {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 110%;
+            color: #000000;
+            margin-bottom: 30px;
+        }
+        
+        &__desc-wrapper {
+            background-color: #FFFFFF;
+            padding: 45px 108.71px 45.5px 50px;
+        }
+        
+        &__desc-wrapper-list {
+            display: flex;
+        }
+        
+        &__desc-wrapper-item {
+            max-width: 412px;
+            width: 100%;
+            padding-right: 88px;
+            margin-right: 30px;
+            border-right: 1px solid #DCDCDC;
+            &:last-child {
+                border: none;
+                padding-right: 0;
+                margin-right: 0;
+            }
+        }
+        
+        &__desc-wrapper-heading {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 27px;
+            color: #000000;       
+            margin-bottom: 25px; 
+        }
+        
+        &__desc-place-wrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            width: 412px;
+        }
+        
+        &__desc-place {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;        
+            margin-left: 10px;
+            width: 100%;
+        }
+        
+        &__desc-tel-wrapper {
+            display: flex;
+            align-items: center;
+        }
+        
+        &__desc-tel-wrapper-bottom-left {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+        
+        &__desc-tel {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            margin-left: 10px;
+        }
+        
+        &__desc-map {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            text-decoration-line: underline;
+            color: #2F48BE;
+        }
+    }
 }
