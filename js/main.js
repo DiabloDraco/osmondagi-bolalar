@@ -5,7 +5,11 @@ let elCross= document.querySelector(".navbar__cross1")
 let elbg = document.querySelector(".header")
 elButton.addEventListener("click" , ()=> {
     elNav.classList.toggle("active")
-    elCross.style.display = "flex"
+    if (elCross.style.display == "flex") {
+        elCross.style.display = "none"
+    }else{
+        elCross.style.display = "flex"
+    }
     elbg.classList.toggle("active__bg")
     elBurger.classList.toggle("deactive")
 })
